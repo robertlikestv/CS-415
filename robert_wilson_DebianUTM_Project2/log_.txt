@@ -1,0 +1,96 @@
+==13603== Memcheck, a memory error detector
+==13603== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==13603== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==13603== Command: ./part4 -f input.txt
+==13603== 
+total 280
+ 4 .vscode
+ 8 string_parser.o
+ 4 string_parser.h
+ 4 string_parser.c
+ 4 pt4
+ 4 pt3
+ 4 pt2
+ 4 pt1
+16 part4.o
+ 8 part4.c
+24 part4
+16 part3.o
+ 8 part3.c
+24 part3
+12 part2.o
+ 4 part2.c
+24 part2
+12 part1.o
+ 4 part1.c
+24 part1
+ 4 Makefile
+ 4 log*.txt
+ 4 iobound.c
+20 iobound
+ 4 input.txt
+ 4 cpubound.c
+20 cpubound
+ 4 ..
+ 4 .
+Execvp: No such file or directory
+==13606== 
+==13606== HEAP SUMMARY:
+==13606==     in use at exit: 0 bytes in 0 blocks
+==13606==   total heap usage: 18 allocs, 18 frees, 4,962 bytes allocated
+==13606== 
+==13606== All heap blocks were freed -- no leaks are possible
+==13606== 
+==13606== For lists of detected and suppressed errors, rerun with: -s
+==13606== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Process: 13607 - Begining to write to file.
+Process: 13607 - Finished.
+Process: 13608 - Begining calculation.
+Process: 13608 - Finished.
+FINISHED: Process 0 finished, removing from queue
+FINISHED: Process 2 finished, removing from queue
+PID	 utime	 stime	 time	 nice	 virt mem
+13605 - 0	0	0	0	5595136
+13607 - 88	10	98	0	2519040
+13608 - 0	0	0	0	99811328
+FINISHED: Process 1 finished, removing from queue
+PID	 utime	 stime	 time	 nice	 virt mem
+13607 - 174	23	197	0	2519040
+13608 - 54	44	98	0	2519040
+PID	 utime	 stime	 time	 nice	 virt mem
+13607 - 263	32	295	0	2519040
+13608 - 118	79	197	0	2519040
+PID	 utime	 stime	 time	 nice	 virt mem
+13607 - 351	42	393	0	2519040
+13608 - 178	118	296	0	2519040
+PID	 utime	 stime	 time	 nice	 virt mem
+13607 - 441	51	492	0	2519040
+13608 - 232	161	393	0	2519040
+PID	 utime	 stime	 time	 nice	 virt mem
+13607 - 528	62	590	0	2519040
+13608 - 287	206	493	0	2519040
+PID	 utime	 stime	 time	 nice	 virt mem
+13607 - 613	76	689	0	2519040
+13608 - 341	250	591	0	2519040
+PID	 utime	 stime	 time	 nice	 virt mem
+13607 - 698	90	788	0	2519040
+13608 - 396	294	690	0	2519040
+PID	 utime	 stime	 time	 nice	 virt mem
+13607 - 784	102	886	0	2519040
+13608 - 454	333	787	0	2519040
+PID	 utime	 stime	 time	 nice	 virt mem
+13607 - 873	110	983	0	2519040
+13608 - 509	376	885	0	2519040
+FINISHED: Process 3 finished, removing from queue
+PID	 utime	 stime	 time	 nice	 virt mem
+13608 - 569	415	984	0	2519040
+FINISHED: Process 4 finished, removing from queue
+==13603== 
+==13603== HEAP SUMMARY:
+==13603==     in use at exit: 0 bytes in 0 blocks
+==13603==   total heap usage: 1,261 allocs, 1,261 frees, 65,610 bytes allocated
+==13603== 
+==13603== All heap blocks were freed -- no leaks are possible
+==13603== 
+==13603== For lists of detected and suppressed errors, rerun with: -s
+==13603== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
